@@ -1,0 +1,29 @@
+<form [formGroup]="eventForm">
+    <div class="cardsView">
+        <button ion-button block outline text-uppercase (click)="getContact()">Add from Contacts</button>
+        <ion-item>
+            <ion-label floating>Name</ion-label>
+            <ion-input type="text" formControlName="name" [(ngModel)]="name"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Phone Number</ion-label>
+            <ion-input type="tel" formControlName="phone" [(ngModel)]="phone" maxlength="15"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Email</ion-label>
+            <ion-input type="email" formControlName="email" [(ngModel)]="email"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Date of birth</ion-label>
+            <ion-datetime displayFormat="DD-MMM-YYYY" formControlName="dob" [(ngModel)]="dob"></ion-datetime>
+        </ion-item>
+        <div text-right>
+            <button ion-button outline clear (click)="addEventModelDismiss()"> 
+                    Cancel
+                  </button>
+            <button ion-button outline clear type="submit" [disabled]="!eventForm.valid" (click)="addEvent()">
+                    OK
+                  </button>
+        </div>
+    </div>
+</form>

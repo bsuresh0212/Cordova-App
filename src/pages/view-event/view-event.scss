@@ -1,0 +1,26 @@
+page-view-event {
+    .header-md::after {
+        content: none;
+        background-image: none;
+    }
+    .toolbar-background-md {
+        background: #337dbd;
+    }
+    .bar-button-default-md,
+    .bar-button-clear-md-default,
+    .bar-button-md-default,
+    .toolbar-title-md {
+        color: #fff;
+    }
+    .content .card .button {
+        color: #488aff;
+        background: transparent;
+        box-shadow: none;
+    }
+    .card-md p {
+        font-size: 1.1rem;
+    }
+    .card-md .item p {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,23 @@
+<ion-menu [content]="menuscontent">
+    <ion-content class="menus">
+        <div padding text-center>
+            <img width="80" height="80" [src]="this.gbl.userProfileFoto" style=" border-radius: 50%;">
+        </div>
+        <div text-center text-uppercase>
+            {{this.gbl.name}}
+        </div>
+        <ion-list padding>
+            <button ion-item>
+                <ion-icon item-start name="custom-news"></ion-icon>
+                News
+              </button>
+            <button ion-item>
+                  <ion-icon item-start name="custom-bdaycake"></ion-icon>
+                  Birthday
+                </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+
+<ion-nav #menuscontent [root]="rootPage"></ion-nav>

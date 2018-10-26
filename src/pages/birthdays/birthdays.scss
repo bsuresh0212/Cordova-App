@@ -1,0 +1,60 @@
+page-birthdays {
+    /* ion-item.item {
+        padding-left: 0px;
+    } */
+    .header-md::after {
+        content: none;
+        background-image: none;
+    }
+    .toolbar-background-md {
+        background: #337dbd;
+    }
+    .bar-button-default-md,
+    .bar-button-clear-md-default,
+    .bar-button-md-default,
+    .toolbar-title-md {
+        color: #fff;
+    }
+    .list-header {
+        margin-bottom: 0px;
+        border: 0px;
+        color: #52b6d6;
+        font-size: 2rem;
+        padding-left: 70px;
+    }
+    ion-item button:first-child {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+    }
+    .item-md p {
+        font-size: 1.1rem;
+    }
+    .content-md hr {
+        width: 80%;
+        float: right;
+    }
+    ion-item:nth-child(3n+1) button {
+        background: #52BE80;
+    }
+    ion-item:nth-child(3n+0) button {
+        background: #9B59B6;
+    }
+    ion-item:nth-child(3n+2) button {
+        background: #2980B9;
+    }
+    ion-item:nth-child(3n+4) button {
+        background: #5DADE2;
+    }
+    ion-item:nth-child(4n+2) button {
+        background: #E59866;
+    }
+    ion-item:active {
+        background: #a7d7f7;
+        transition: transform .3s, -webkit-transform .3s;
+        transform: scale(1.1);
+    }
+}

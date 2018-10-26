@@ -1,0 +1,14 @@
+page-menus {
+    .item-md {
+        background: transparent;
+    }
+    .item-md.activated {
+        background: transparent;
+    }
+    .list-md .item-block .item-inner {
+        border: 0px;
+    }
+    .menus ion-icon {
+        color: #337dbd
+    }
+}

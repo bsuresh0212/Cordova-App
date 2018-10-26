@@ -1,0 +1,52 @@
+page-home {
+    .text-center {
+        text-align: center;
+    }
+    .background {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(50deg, #4e5efc, #4ee7fc);
+    }
+    .scroll-content {
+        text-align: center;
+    }
+    ion-card.card {
+        background: rgba(232, 238, 238, 0.6px);
+        border-radius: 10px;
+    }
+    .item {
+        background: rgba(232, 238, 238, 0px);
+    }
+    ion-input {
+        border-bottom: #03a0ea solid 1px;
+    }
+    h1 {
+        color: #fff;
+        font-size: 3em;
+        font-weight: lighter;
+    }
+    .item-input .label-md {
+        color: #000;
+    }
+    .button-md.logo {
+        border-radius: 50%;
+        height: 44px;
+        width: 44px;
+    }
+    .logo .icon {
+        padding-right: 0px;
+    }
+    .googleBG {
+        background-color: #CC3333;
+    }
+    .twitterBG {
+        background-color: #1da1f3;
+    }
+    .linkedinBG {
+        background-color: #0077B5;
+    }
+    .fbBG {
+        background-color: #3B5998;
+    }
+    // background-color: #c73f3f;
+}
